@@ -1,0 +1,199 @@
+<mxfile host="app.diagrams.net" modified="2021-11-04T18:14:02.589Z" agent="5.0 (Windows)" etag="NXP5lC6a9VyG2X4Qt3VV" version="15.6.0" type="github">
+  <diagram id="6DBi5PB28M5_5Ci9iJX1" name="Page-1">
+    <mxGraphModel dx="2062" dy="1112" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="fZ8SEbQR61lL7U2RfqG8-4" value="" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#FF4F8B;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.http_notification;" parent="1" vertex="1">
+          <mxGeometry x="300" y="74" width="78" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="fZ8SEbQR61lL7U2RfqG8-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="fZ8SEbQR61lL7U2RfqG8-5" target="fZ8SEbQR61lL7U2RfqG8-4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fZ8SEbQR61lL7U2RfqG8-5" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/internet-security-flat-2/32/Internet_Security_Browser_webpage_website_web_page-128.png" parent="1" vertex="1">
+          <mxGeometry x="120" y="78" width="70" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="fZ8SEbQR61lL7U2RfqG8-6" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.222;entryY=0.54;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="fZ8SEbQR61lL7U2RfqG8-4" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="110" as="sourcePoint" />
+            <mxPoint x="509.9899999999998" y="113" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fZ8SEbQR61lL7U2RfqG8-8" value="&lt;div&gt;Broker UI&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="120" y="50" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="fZ8SEbQR61lL7U2RfqG8-9" value="submitRequestToSuppliers" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="254" y="50" width="170" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="fZ8SEbQR61lL7U2RfqG8-10" value="&lt;div&gt;@nestjs/bull Azure Cache for redis&lt;br&gt;&lt;/div&gt;&lt;div&gt;Supplier Interaction Message&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="421" y="46" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fZ8SEbQR61lL7U2RfqG8-12" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.96;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.519;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=none;" parent="1" source="PZRAdVkJTSdo4BKQnJau-2" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="543.1999999999998" y="111" as="sourcePoint" />
+            <mxPoint x="680" y="110.98800000000006" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fZ8SEbQR61lL7U2RfqG8-13" value="&lt;div&gt;mesage.consumer&lt;/div&gt;&lt;div&gt;processRequest()&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="667" y="42" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PPC0egSg9FuYiBOtxSOD-1" value="&lt;div&gt;- processRequest()&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;table style=&quot;border: 1px solid rgb(204 , 204 , 204) ; border-collapse: collapse&quot; border=&quot;1&quot;&gt;&lt;tbody&gt;&lt;tr align=&quot;left&quot;&gt;&lt;td style=&quot;border-collapse: collapse&quot;&gt;Get Request Object&lt;br&gt;Generate Email&lt;/td&gt;&lt;/tr&gt;&lt;tr align=&quot;left&quot;&gt;&lt;td&gt;Get Mappings&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr align=&quot;left&quot;&gt;&lt;td&gt;IAdapter =&amp;gt; Supplier Payload&lt;br&gt;&lt;span&gt; &lt;/span&gt;- Apply value mappings&lt;br&gt;&lt;span&gt; &lt;/span&gt;- Transform Payload&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr align=&quot;left&quot;&gt;&lt;td&gt;Submit to Supplier (if API enabled)&lt;br&gt;Persist supplierRefId&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="385" y="180" width="200" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="PPC0egSg9FuYiBOtxSOD-2" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;entryX=0.995;entryY=0.3;entryDx=0;entryDy=0;entryPerimeter=0;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" target="PPC0egSg9FuYiBOtxSOD-1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="680" y="140" as="sourcePoint" />
+            <mxPoint x="570" y="540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PPC0egSg9FuYiBOtxSOD-3" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="840" y="90" as="sourcePoint" />
+            <mxPoint x="840" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PPC0egSg9FuYiBOtxSOD-4" value="" style="sketch=0;outlineConnect=0;fontColor=#ffffff;fillColor=#1ba1e2;strokeColor=#006EAF;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.http_notification;" parent="1" vertex="1">
+          <mxGeometry x="940" y="290" width="78" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="PPC0egSg9FuYiBOtxSOD-5" value="&lt;div&gt;Supplier Request&lt;/div&gt;&lt;div&gt;Post Endpoint&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="920" y="253" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PPC0egSg9FuYiBOtxSOD-8" value="Service Layer" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="440" y="152" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="PPC0egSg9FuYiBOtxSOD-9" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="70" y="400" as="sourcePoint" />
+            <mxPoint x="1050" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PPC0egSg9FuYiBOtxSOD-12" value="" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#FF4F8B;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.http_notification;" parent="1" vertex="1">
+          <mxGeometry x="680" y="450" width="78" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="PPC0egSg9FuYiBOtxSOD-15" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" source="PPC0egSg9FuYiBOtxSOD-12" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="405" y="485" as="sourcePoint" />
+            <mxPoint x="560" y="488" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PPC0egSg9FuYiBOtxSOD-17" value="Callback Endpoint" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="653.5" y="420" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="PPC0egSg9FuYiBOtxSOD-20" value="&lt;div&gt;mesage.consumer&lt;/div&gt;&lt;div&gt;processNotification()&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="274" y="415" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PPC0egSg9FuYiBOtxSOD-24" value="&lt;div&gt;- processCallback()&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;table style=&quot;border: 1px solid rgb(204 , 204 , 204) ; border-collapse: collapse&quot; border=&quot;1&quot;&gt;&lt;tbody&gt;&lt;tr align=&quot;left&quot;&gt;&lt;td&gt;Get Mappings&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr align=&quot;left&quot;&gt;&lt;td&gt;IAdapter&lt;br&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;&lt;/span&gt;- Transform Payload&lt;br&gt;- Apply value mappings&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr align=&quot;left&quot;&gt;&lt;td&gt;Deals with Exceptions&lt;br&gt;and Quotes&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="445" y="602" width="200" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="PPC0egSg9FuYiBOtxSOD-25" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;fillColor=#d5e8d4;strokeColor=#82b366;endWidth=10;endSize=6.56;exitX=0.25;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="PZRAdVkJTSdo4BKQnJau-5" target="PPC0egSg9FuYiBOtxSOD-24" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="378" y="652.5485436893205" as="sourcePoint" />
+            <mxPoint x="575" y="915" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PPC0egSg9FuYiBOtxSOD-26" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="840" y="450" as="sourcePoint" />
+            <mxPoint x="840" y="765" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PPC0egSg9FuYiBOtxSOD-27" value="" style="sketch=0;outlineConnect=0;fontColor=#ffffff;fillColor=#1ba1e2;strokeColor=#006EAF;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.http_notification;" parent="1" vertex="1">
+          <mxGeometry x="936" y="450" width="78" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="PPC0egSg9FuYiBOtxSOD-28" value="&lt;div&gt;Supplier Client&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="925" y="420" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="PPC0egSg9FuYiBOtxSOD-30" value="Service Layer" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="490" y="570" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="PPC0egSg9FuYiBOtxSOD-33" value="" style="endArrow=classic;html=1;rounded=0;entryX=1.026;entryY=0.256;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" target="PPC0egSg9FuYiBOtxSOD-12" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="920" y="470" as="sourcePoint" />
+            <mxPoint x="570" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PPC0egSg9FuYiBOtxSOD-34" value="Status Notification" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="795" y="474" width="110" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="PPC0egSg9FuYiBOtxSOD-35" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="760" y="508" as="sourcePoint" />
+            <mxPoint x="920" y="508" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PPC0egSg9FuYiBOtxSOD-36" value="Http Status" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="804" y="510" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="PPC0egSg9FuYiBOtxSOD-41" value="" style="endArrow=classic;html=1;rounded=0;entryX=1.026;entryY=0.256;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="930" y="356" as="sourcePoint" />
+            <mxPoint x="584.9979999999998" y="355.9680000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PPC0egSg9FuYiBOtxSOD-42" value="Response containing supplierRefId" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="674.5" y="360" width="210" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="PPC0egSg9FuYiBOtxSOD-43" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.359;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" target="PPC0egSg9FuYiBOtxSOD-4" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="587" y="318" as="sourcePoint" />
+            <mxPoint x="747" y="318" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PPC0egSg9FuYiBOtxSOD-44" value="Supplier Compliant Request Payload" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="674.5" y="319" width="220" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="PPC0egSg9FuYiBOtxSOD-45" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="500" y="489" as="sourcePoint" />
+            <mxPoint x="372.5" y="489.7919254658384" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PPC0egSg9FuYiBOtxSOD-46" value="" style="sketch=0;outlineConnect=0;fontColor=#ffffff;fillColor=#1ba1e2;strokeColor=#006EAF;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.http_notification;" parent="1" vertex="1">
+          <mxGeometry x="940" y="657" width="78" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="PPC0egSg9FuYiBOtxSOD-47" value="&lt;div&gt;Supplier Endpoint&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="925" y="622" width="110" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="PPC0egSg9FuYiBOtxSOD-48" value="" style="endArrow=classic;html=1;rounded=0;entryX=1.026;entryY=0.256;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="940" y="728" as="sourcePoint" />
+            <mxPoint x="644.9979999999996" y="727.9680000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PPC0egSg9FuYiBOtxSOD-49" value="Response Notification Details" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="715" y="732" width="180" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="PPC0egSg9FuYiBOtxSOD-50" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="647" y="686" as="sourcePoint" />
+            <mxPoint x="940" y="686" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PPC0egSg9FuYiBOtxSOD-51" value="Supplier Compliant Payload" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="710" y="690" width="170" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="PPC0egSg9FuYiBOtxSOD-53" value="&lt;h1&gt;Request Processing&lt;br&gt;&lt;/h1&gt;&lt;p&gt;Request is saved via UI. Service Bus messages are created for each supplier to notify. Messages are processed by Logic App which calls system management api and underlying services to perform notifications and submissions.&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;align=left;" parent="1" vertex="1">
+          <mxGeometry x="95" y="163" width="190" height="197" as="geometry" />
+        </mxCell>
+        <mxCell id="PPC0egSg9FuYiBOtxSOD-54" value="&lt;h1&gt;Callback Processing&lt;br&gt;&lt;/h1&gt;&lt;p&gt;Suppliers call Aquarius Notification Callback which creates Service Bus message. Service will enable deduping to prevent abuse. Messages are processed by Logic App which calls system management api and underlying services to perform retrieval and Aquarius .system updates.&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;align=left;" parent="1" vertex="1">
+          <mxGeometry x="90" y="445" width="190" height="235" as="geometry" />
+        </mxCell>
+        <mxCell id="PZRAdVkJTSdo4BKQnJau-2" value="" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/databases/Cache_Redis.svg;" vertex="1" parent="1">
+          <mxGeometry x="510" y="84" width="64" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="PZRAdVkJTSdo4BKQnJau-4" value="" style="fillColor=#c0f5a9;dashed=0;outlineConnect=0;strokeWidth=2;html=1;align=center;fontSize=8;verticalLabelPosition=bottom;verticalAlign=top;shape=mxgraph.eip.event_driven_consumer;" vertex="1" parent="1">
+          <mxGeometry x="682.5" y="78" width="106" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PZRAdVkJTSdo4BKQnJau-5" value="" style="fillColor=#c0f5a9;dashed=0;outlineConnect=0;strokeWidth=2;html=1;align=center;fontSize=8;verticalLabelPosition=bottom;verticalAlign=top;shape=mxgraph.eip.event_driven_consumer;direction=west;" vertex="1" parent="1">
+          <mxGeometry x="286" y="450" width="106" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PZRAdVkJTSdo4BKQnJau-6" value="&lt;div&gt;@nestjs/bull Azure Cache for redis&lt;br&gt;&lt;/div&gt;&lt;div&gt;Supplier Interaction Message&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="428" y="425" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PZRAdVkJTSdo4BKQnJau-7" value="" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/databases/Cache_Redis.svg;" vertex="1" parent="1">
+          <mxGeometry x="499" y="463" width="64" height="52" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
